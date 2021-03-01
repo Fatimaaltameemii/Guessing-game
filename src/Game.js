@@ -109,6 +109,7 @@ class Game extends Component {
             ref={(button) => {
               this.startNewGame = button;
             }}
+            className={`${this.state.guesses} new`}
             className={this.state.classButtonNewGame}
             onClick={this.props.newGame}
             className="new"
